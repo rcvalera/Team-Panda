@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<body style= "background-image: url('images/bg.png'); background-size: cover;">
+	<link rel="stylesheet" type="text/css" href="LogIn.css">
+<style>
+
+.LogInBox {
+	width: 320px;
+	height: 400px;
+	background: #fff;
+	border-radius: 5%;
+	top: 50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	fotn size: 22px;
+}
+
+.LogInBox p{ 
+	margin: 0;
+	padding: 0;
+	font-weight: Bold;
+}
+
+.LogInBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.LogInBox input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000000;
+	font-size: 16px;
+}
+
+.LogInBox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1a75ff;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.LogInBox input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	color: #000;
+}
+
+.LogInBox a{ 
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 20px; 
+	color: #666666;
+}
+
+.LogInBox a:hover {
+	color: #ff4d4d;
+}
+
+</style>
+</head>
+<body>
+	<div class="LogInBox">
+	<img src="images/user.png" class="avatar">
+	<center>
+		<h1> SIGN IN</h1>
+	</center>
+			<form>
+				<p> Username </p>
+				<input type="text" name="" placeholder="Enter Username...">
+				<p> Password </p>
+				<input type="Password" name="" placeholder="Enter Password..."> <br><br>
+			<center>
+				<input type="submit" name="" value="LogIn"> 
+			</center>
+
+	</div>
+	
+</html>
