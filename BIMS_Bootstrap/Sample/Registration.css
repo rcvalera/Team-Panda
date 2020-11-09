@@ -1,0 +1,155 @@
+
+.regform {
+	width: 1000px;
+	background-color: #1a75ff;
+	opacity: 0.9;
+	margin: auto;
+	color: White;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.main {
+	width: 1000px;
+	background-color: #fff;
+	margin: auto;
+	padding: 10px 0px 10px 0px;
+	border-radius: 0px 0px 15px 15px;
+}
+.form {
+	padding:10px;
+}
+
+.name {
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: Black;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+
+.firstname {
+	position: relative;
+	left: 50px;
+	top: -40px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.lastname {
+	position: relative;
+	left: 20px;
+	top: -40px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.middlename {
+	position: relative;
+	left: -30px;
+	top: -40px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.firstlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 150px;
+	top: -75px;
+}
+
+.lastlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 120px;
+	top: -75px;
+}
+
+.middlelabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 90px;
+	top: -75px;
+}
+
+.position {
+	position: relative;
+	left: 135px;
+	top: -50px;
+	line-height: 40px;
+	width: 780px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.username {
+	position: relative;
+	left: 135px;
+	top: -50px;
+	line-height: 40px;
+	width: 780px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.password {
+	position: relative;
+	left: 135px;
+	top: -50px;
+	line-height: 40px;
+	width: 350px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.confirm_password {
+	position: relative;
+	left: 165px;
+	top: -50px;
+	line-height: 40px;
+	width: 350px;
+	border-radius: 6px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+}
+
+.main input[type="submit"]{
+	outline: none;
+	height: 40px;
+	background: #1a75ff;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+	width: 500px;
+}
+
+.main input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	color: #000;
+}
