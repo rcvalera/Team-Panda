@@ -1,0 +1,277 @@
+.regform {
+	width: 95%;
+	background-color: #1a75ff;
+	opacity: 0.9;
+	margin: auto;
+	color: White;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.main {
+	width: 95%;
+	background-color: #fff;
+	margin: auto;
+	padding: 10px 0px 10px 0px;
+	border-radius: 0px 0px 15px 15px;
+}
+.form {
+	padding:10px;
+}
+
+.lastname {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 518px;
+	outline: none;
+}
+
+.lastlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 480px ;
+}
+
+.firstname {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 518px;
+	outline: none;
+}
+
+.firstlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 480px ;
+}
+
+.middlename {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 500px;
+	outline: none;
+}
+
+.middlelabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 480px ;
+}
+
+.alias {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 560px;
+	outline: none;
+}
+
+.aliaslabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 480px ;
+}
+
+.birthplacelabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 480px ;
+	top: -90px;
+}
+
+.birthplace {
+	width: 700px ;
+	height: 100px;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	left: 490px;
+	top: -50px;
+	outline: none;
+}
+
+.phonelabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 100px ;
+	top: -20px;
+}
+
+.phone {
+	width: 400px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	outline: none;
+	left: 110px ;
+	top: -25px;
+}
+
+.emaillabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 160px ;
+	top: -20px;
+}
+
+.email {
+	width: 400px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	outline: none;
+	left: 180px ;
+	top: -25px;
+}
+
+.birthday {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -158px;
+}
+
+.main input[type="date"]{
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 980px;
+	top: -167px;
+	outline: none;
+}
+
+.statuslabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -150px;
+}
+
+.status {
+	width: 295px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 960px;
+	top: -145px;
+	outline: none;
+}
+
+.Gender {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -130px;
+}
+
+.main input[type="radio"]{
+	position: relative;
+	left:  1000px;
+	Top: -125px;
+}
+
+.male {
+	position: relative;
+	left:   1000px;
+	Top: -125px;
+}
+.female {
+	position: relative;
+	left: 1000px;
+	Top: -125px;;
+}
+
+.main input[type="submit"]{
+	outline: none;
+	height: 40px;
+	background: #1a75ff;
+
+	font-size: 18px;
+	border-radius: 20px;
+	width: 250px;
+}
+
+.main input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	color: #000;
+}
