@@ -1,3 +1,5 @@
+/* Form CSS */
+
 .regform {
 	width: 95%;
 	background-color: #1a75ff;
@@ -19,6 +21,8 @@
 .form {
 	padding:10px;
 }
+
+/* Personal Information */
 
 .lastname {
 	width: 250px ;
@@ -112,13 +116,60 @@
 	left: 480px ;
 }
 
+.facemark {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 513px;
+	outline: none;
+}
+
+.facemarklabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 480px ;
+}
+
+.birthday {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  480px;
+
+}
+
+.main input[type="date"]{
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 535px;
+	outline: none;
+}
+
 .birthplacelabel {
 	position: relative;
 	color: #4d4d4d;
 	text-transform: capitalize;
 	font-size: 18px;
 	left: 480px ;
-	top: -90px;
+	top: -20px;
 }
 
 .birthplace {
@@ -130,9 +181,147 @@
 	font-size: 16px;
 	color: black;
 	left: 490px;
-	top: -50px;
+	top: 20px;
 	outline: none;
 }
+
+.statuslabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -340px;
+}
+
+.status {
+	width: 295px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 960px;
+	top: -335px;
+	outline: none;
+}
+
+.Gender {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -320px;
+}
+
+.main input[type="radio"]{
+	position: relative;
+	left:  1000px;
+	Top:-320px;
+}
+
+.male {
+	position: relative;
+	left:   1000px;
+	Top: -320px;
+}
+.female {
+	position: relative;
+	left: 1000px;
+	Top: -320px;
+}
+
+.nationalitylabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -310px;
+}
+
+.nationality {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 960px;
+	top: -310px;
+	outline: none;
+}
+
+.religionlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -310px;
+}
+
+.religion {
+	width: 250px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 980px;
+	top: -310px;
+	outline: none;
+}
+
+.occupationlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -300px;
+}
+
+.occupation {
+	width: 295px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 960px;
+	top: -290px;
+	outline: none;
+}
+
+.voterlabel {
+	position: relative;
+	color: #4d4d4d;
+	text-transform: capitalize;
+	font-size: 18px;
+	left:  950px;
+	Top: -280px;
+}
+
+/* Contact Details */
+
 
 .phonelabel {
 	position: relative;
@@ -140,7 +329,7 @@
 	text-transform: capitalize;
 	font-size: 18px;
 	left: 100px ;
-	top: -20px;
+	top: -120px;
 }
 
 .phone {
@@ -156,8 +345,24 @@
 	border-right: 0px ;
 	outline: none;
 	left: 110px ;
-	top: -25px;
+	top: -120px;
 }
+
+.phone1 {
+	width: 400px ;
+	position: relative;
+	line-height: 40px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	outline: none;
+	left: 225px ;
+	top: -120px;
+} 
 
 .emaillabel {
 	position: relative;
@@ -165,7 +370,7 @@
 	text-transform: capitalize;
 	font-size: 18px;
 	left: 160px ;
-	top: -20px;
+	top: -120px;
 }
 
 .email {
@@ -181,20 +386,11 @@
 	border-right: 0px ;
 	outline: none;
 	left: 180px ;
-	top: -25px;
+	top: -120px;
 }
 
-.birthday {
-	position: relative;
-	color: #4d4d4d;
-	text-transform: capitalize;
-	font-size: 18px;
-	left:  950px;
-	Top: -158px;
-}
-
-.main input[type="date"]{
-	width: 250px ;
+.email1 {
+	width: 400px ;
 	position: relative;
 	line-height: 40px;
 	padding: 0px 22px;
@@ -204,60 +400,16 @@
 	border-top: 0px ;
 	border-left: 0px ;
 	border-right: 0px ;
-	left: 980px;
-	top: -167px;
 	outline: none;
+	left: 410px ;
+	top: -120px;
 }
 
-.statuslabel {
-	position: relative;
-	color: #4d4d4d;
-	text-transform: capitalize;
-	font-size: 18px;
-	left:  950px;
-	Top: -150px;
-}
 
-.status {
-	width: 295px ;
-	position: relative;
-	line-height: 40px;
-	padding: 0px 22px;
-	font-size: 16px;
-	color: black;
-	border-bottom: 1px solid black;
-	border-top: 0px ;
-	border-left: 0px ;
-	border-right: 0px ;
-	left: 960px;
-	top: -145px;
-	outline: none;
-}
 
-.Gender {
-	position: relative;
-	color: #4d4d4d;
-	text-transform: capitalize;
-	font-size: 18px;
-	left:  950px;
-	Top: -130px;
-}
-
-.main input[type="radio"]{
-	position: relative;
-	left:  1000px;
-	Top: -125px;
-}
-
-.male {
-	position: relative;
-	left:   1000px;
-	Top: -125px;
-}
-.female {
-	position: relative;
-	left: 1000px;
-	Top: -125px;;
+.line {
+	border: 5px solid #1a75ff ;
+	margin-top: -50px;
 }
 
 .main input[type="submit"]{
@@ -274,4 +426,8 @@
 	cursor: pointer;
 	background: #ff4d4d;
 	color: #000;
+}
+
+.hr {
+	top: 50px;
 }

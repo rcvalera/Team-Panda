@@ -12,19 +12,25 @@
 		<form>
 		<label class="lastlabel"> Last Name: </label>
 				<input class="lastname" type="text" name="lname"  autocomplete="off" required>
-		<br>
+	<br>
 		<label class="firstlabel"> First Name: </label>
 				<input class="firstname" type="text" name="fname" autocomplete="off" required>
-		<br>
+	<br>
 		<label class="middlelabel"> Middle Name: </label>
 				<input class="middlename" type="text" name="midname" autocomplete="off" required>
-		<br>
+	<br>
 		<label class="aliaslabel"> Alias: </label>
 				<input class="alias" type="text" name="alias" autocomplete="off" required>
-		<br>
+	<br>
+		<label class="facemarklabel"> Face Marks: </label>
+				<input class="facemark" type="number" name="alias" min="0" autocomplete="off" required>
+	<br>
 		<label class="birthday"> Birthday: </label>
 				<input type="date" id="birthday" name="birthday" required>
-		<br>
+	<br>
+		<label class="birthplacelabel"> Place Of Birth: </label>
+			<input class="birthplace" type="text" name="birthplace" autocomplete="off" required>
+	<br>
 		<label class="statuslabel"> Civil Status: </label>
 			<select class="status" name="status" id="status" required>
 				<option value="Single">Single</option>
@@ -32,24 +38,47 @@
 				<option value="Separated">Separated</option>
 				<option value="Widowed">Widowed - Drop Down</option>
 			</select>
-		<br>
+	<br>
 		<label class="Gender"> Gender: </label>
 			<input type="radio" id="male" name="gender" value="male"> 
 				<label class="male"> Male </label>
 			<input type="radio" id="female" name="gender" value="female"> 
 				<label class="female"> Female </label>
-		<br>
-		<label class="birthplacelabel"> Place Of Birth: </label>
-			<input class="birthplace" type="text" name="birthplace" autocomplete="off" required>
-		<br>
-			
-		 <label class="phonelabel">Phone Number:</label>
-			<input class="phone" type="tel" id="phone" name="phone" placeholder="0123-45-67" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" autocomplete="off" required>
+	<br>
+		<label class="nationalitylabel"> Nationality: </label>
+			<input class="nationality" type="text" name="nationality" autocomplete="off" required>
+	<br>
+		<label class="religionlabel"> Religion: </label>
+			<input class="religion" type="text" name="religion" autocomplete="off" required>
+	<br>
+		<label class="occupationlabel"> Occupation: </label>	
+			<select class="occupation" name="occupation" id="occupatios" required>
+				<option value="Private">Private</option>
+				<option value="Public">Public</option>
+				<option value="Government">Government</option>
+				<option value="Unemployed">Unemployed</option>
+				<option value="OSY">Out of School Youth (OSY)</option>
+				<option value="OSC">Out of School Children (OSC)</option>
+				<option value="PWD">Person with Disability (PWD)</option>
+				<option value="SC">Senior Citizen (SC)</option>
+				<option value="OFW">Overseas Filipino Worker (OFW)</option>
+				<option value="Solo Parent">Solo Parent</option>
+				<option value="IP">Indigeneous People (IP)</option>
+				<option value="others">Others</option>
+			</select>
+	<br>
+		<label class="voterlabel"> Voter Status: </label>		
+	<br>
+		<label class="phonelabel">Phone Number:</label>
+			<input class="phone" type="tel" id="phone" name="phone" placeholder="Home Number" pattern="[0-9]{4} [0-9]{2} [0-9]{2}" autocomplete="off" required>
 		 <label class="emaillabel"> Email Address: </label>
 			<input class="email" type="email"  id="email" name="email" placeholder="@gmail.com" autocomplete="off" required>
-
-		<hr>
 		
+			<input class="phone1" type="tel" id="phone1" name="phone1" placeholder="Cellphone Number" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" autocomplete="off">
+			<input class="email1" type="email"  id="email1" name="email1" placeholder="@gmail.com" autocomplete="off">
+	
+	<hr class="line">
+	<br><br>
 		<center>
 				<input type="submit" name="" value="Save New Resident"> <br> <br>
 		</center>
