@@ -4839,7 +4839,7 @@ section {
 }
 
 .au-breadcrumb__list li {
-    font-size: 14px;
+    font-size: 17px;
     color: #999;
 }
 
@@ -4961,7 +4961,7 @@ section {
 
 /* ----- Statistic ----- */
 .statistic {
-    padding-top: 25px;    
+    padding-top: 37px;    
 }
 
 .statistic1 {
