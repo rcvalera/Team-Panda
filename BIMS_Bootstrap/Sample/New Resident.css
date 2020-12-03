@@ -320,6 +320,29 @@
 	Top: -280px;
 }
 
+.yes {
+	position: relative;
+	left:   690px;
+	Top: -280px;
+}
+.no {
+	position: relative;
+	left: 700px;
+	Top: -280px;
+}
+
+.main input[class="status"]{
+	position: relative;
+	left:  820px;
+	Top:-280px;
+}
+
+.main input[class="status1"]{
+	position: relative;
+	left:  700px;
+	Top:-280px;
+}
+
 /* Contact Details */
 
 
