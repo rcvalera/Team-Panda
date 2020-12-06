@@ -646,6 +646,120 @@
         </div>
 
     </div>
+	
+	
+<!-- Start of Modal -->
+
+    <div class="modal-container">
+	    <div class="modal-content">
+	       	<span class="modal-close">+</span>
+			
+<div class="title">Resident Registration Form </div>
+<br>
+	       	<div class="imagePreview" id="imagePreview">
+	       		<img src="" alt="Image preview" class="image-preview">
+	       		<span class="imagePreview-text">Image</span>
+	       	</div>
+
+	       	<div class="input-file">
+	       		<input type="file" name="inputFile" id="inputFile">
+	       	</div>		
+			
+
+<div class="main">
+<div class="title1">  Personal Information  </div>
+		<label class="lastlabel"> Last Name: </label>
+				<input class="lastname" type="text" name="lname"  autocomplete="off" required>
+		<label class="firstlabel"> First Name: </label>
+				<input class="firstname" type="text" name="fname" autocomplete="off" required>
+		<label class="middlelabel"> Middle Name: </label>
+				<input class="middlename" type="text" name="midname" autocomplete="off" required>
+		<label class="labelalias"> Alias: </label>
+			<input class="alias" type="text" name="alias" autocomplete="off" required>
+		<label class="facemarklabel"> Face Marks: </label>
+				<input class="facemark" type="number" name="alias" min="0" autocomplete="off" required>
+		<label class="birthdaylabel"> Birthday: </label>
+				<input type="date" id="birthday" name="birthday" required>
+		<label class="birthplacelabel"> Place Of Birth: </label>
+				<input class="birthplace" type="text" name="birthplace" autocomplete="off" required>
+		<label class="statuslabel"> Civil Status: </label>
+			<select class="status" name="status" id="status" required>
+				<option value="Single">SINGLE</option>
+				<option value="Married">MARRIED</option>
+				<option value="Separated">SEPARATED</option>
+				<option value="Widowed">WIDOWED - Drop Down</option>
+			</select>
+		<label class="Gender"> Gender: </label>
+			<select class="gender" name="gender" id="gender" required>
+				<option value="Male">MALE</option>
+				<option value="Female">FEMALE</option>
+			</select>
+		<label class="nationalitylabel"> Nationality: </label>
+			<input class="nationality" type="text" name="nationality" autocomplete="off" required>
+		<label class="religionlabel"> Religion: </label>
+			<input class="religion" type="text" name="religion" autocomplete="off" required>
+		<label class="occupationlabel"> Occupation: </label>	
+			<select class="occupation" name="occupation" id="occupatios" required>
+				<option value="Private">Private</option>
+				<option value="Public">Public</option>
+				<option value="Government">Government</option>
+				<option value="Unemployed">Unemployed</option>
+				<option value="OSY">Out of School Youth (OSY)</option>
+				<option value="OSC">Out of School Children (OSC)</option>
+				<option value="PWD">Person with Disability (PWD)</option>
+				<option value="SC">Senior Citizen (SC)</option>
+				<option value="OFW">Overseas Filipino Worker (OFW)</option>
+				<option value="Solo Parent">Solo Parent</option>
+				<option value="IP">Indigeneous People (IP)</option>
+				<option value="others">Others</option>
+			</select>
+		<label class="voterlabel"> Voter Status: </label>
+			<select class="voter" name="voter" id="voter" required>
+				<option value="Yes">YES</option>
+				<option value="No">NO</option>
+			</select>
+
+<div class="title2"> <b> Contact Information </b> </div>
+<br> <br>
+		<label class="Address">City Address:</label>
+			<input class="address" type="text" name="address"  autocomplete="off" required>
+<br> 
+		<label class="PAddress">Provincial Address:</label>
+			<input class="Paddress" type="text" name="Paddress"  autocomplete="off" required>
+<br> 
+		<label class="phonelabel">Phone Number:</label>
+			<input class="phone" type="tel" id="phone" name="phone" placeholder="Home Number" pattern="[0-9]{4}[0-9]{2}[0-9]{2}" autocomplete="off" required>
+		 <label class="emaillabel"> Email Address: </label>
+			<input class="email" type="email"  id="email" name="email" placeholder="@gmail.com" autocomplete="off" required>
+<br>
+		<input class="phone1" type="tel" id="phone1" name="phone1" placeholder="Cellphone Number" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" autocomplete="off">
+		<input class="email1" type="email"  id="email1" name="email1" placeholder="@gmail.com" autocomplete="off">
+<br> <br>
+<div class="title3"> <b> Registration Details </b> </div>
+<br> <br>
+		<label class="ResidentTypeLabel"> Resident Type:</label>
+			<select class="Rtype" name="Rtype" id="Rtype" required>
+				<option value="Native">NATIVE</option>
+				<option value="Rentee">RENTEE</option>
+			</select>
+		<label class="ResidentStatusLabel"> Resident Status:</label>
+			<select class="Rstatus" name="Rstatus" id="Rstatus" required>
+				<option value="Active">ACTIVE</option>
+				<option value="Inactive">INACTIVE</option>
+				<option value="Deceased">DECEASED</option>
+			</select>
+<br> <br>
+		<center>
+			<input type="button" name="" value="Save New Resident" href="Manage_Admin.html"> <br> <br>
+		</center>
+
+</div> 
+	
+	
+    </div>
+
+<!-- End of Modal -->
+
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
@@ -674,7 +788,7 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-
+	<script src="js/modal.js"></script>
 </body>
 
 </html>
