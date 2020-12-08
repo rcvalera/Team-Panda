@@ -14748,13 +14748,13 @@ section {
 
 /* End of input file and image preview */
 
-/* CSS for Modal Fields */
+/* CSS for New Resident Fields */
 
 .title1 {
 	position: absolute;
 	padding: 10px 0px 10px 0px;
 	margin: auto;
-	left: 280px;
+	left: 300px;
 	font-size: 20px;
 	text-decoration: underline;
 	color: black;
@@ -15300,3 +15300,223 @@ section {
 	cursor: pointer;
 	background: #ff4d4d;
 	color: #000;
+}
+
+/* CSS for New Admin Fields */
+
+.last-name-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 300px ;
+	top: 110px;
+}
+
+.last-name {
+	width: 200px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 300px;
+	top: 140px;
+	outline: none;
+}
+
+.first-name-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 550px ;
+	top: 110px;
+}
+
+.first-name {
+	width: 200px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 550px;
+	top: 140px;
+	outline: none;
+}
+
+.middle-name-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 800px ;
+	top: 110px;
+}
+
+.middle-name {
+	width: 200px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 800px;
+	top: 140px;
+	outline: none;
+}
+
+.resident-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 300px ;
+	top: 180px;
+}
+
+.resident-ID {
+	width: 200px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 300px;
+	top: 210px;
+	outline: none;
+}
+
+
+.position-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 550px ;
+	top: 180px;
+}
+
+.position-name {
+	width: 450px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 550px;
+	top: 210px;
+	outline: none;
+}
+
+.username-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 300px ;
+	top: 250px;
+}
+
+.username {
+	width: 700px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 300px;
+	top: 280px;
+	outline: none;
+}
+
+.password-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 300px ;
+	top: 320px;
+}
+
+.password {
+	width: 330px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 300px;
+	top: 350px;
+	outline: none;
+}
+
+.confirm-password-label {
+	position: absolute;
+	color: black;
+	text-transform: capitalize;
+	font-size: 18px;
+	left: 670px ;
+	top: 320px;
+}
+
+.confirm-password {
+	width: 330px ;
+	position: absolute;
+	line-height: 20px;
+	padding: 0px 22px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px solid black;
+	border-top: 0px ;
+	border-left: 0px ;
+	border-right: 0px ;
+	left: 670px;
+	top: 350px;
+	outline: none;
+}
+
+.main1 input[type="submit"]{
+	outline: none;
+	height: 40px;
+	background: #1a75ff;
+
+	font-size: 18px;
+	border-radius: 20px;
+	width: 250px;
+}
+
+.main1 input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ff4d4d;
+	color: #000;
+}
